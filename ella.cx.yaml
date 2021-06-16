@@ -37,3 +37,10 @@ www:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+todo:
+  octodns:
+    cloudflare:
+      proxied: true
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
