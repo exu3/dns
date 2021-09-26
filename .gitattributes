@@ -1,2 +1,4 @@
-*.yml linguist-language=YAML
-*.yaml linguist-language=YAML
+*.yaml linguist-detectable=true
+*.yaml linguist-detectable=true
+*.yml linguist-documentation=false
+*.yml linguist-documentation=false
