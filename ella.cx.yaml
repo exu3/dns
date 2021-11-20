@@ -16,6 +16,15 @@
   - ttl: 1
     type: TXT
     value: v=spf1 include:spf.improvmx.com ~all
+
+hi:
+  octodns:
+    cloudflare:
+      proxied: true
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 pfp:
   octodns:
     cloudflare:
@@ -23,6 +32,7 @@ pfp:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+
 timeline:
   octodns:
     cloudflare:
@@ -30,14 +40,8 @@ timeline:
   ttl: 1
   type: CNAME
   value: genetic-snowdrop-s8wt8vbmm1v0sql8ih8cvuor.herokudns.com.
+
 www:
-  octodns:
-    cloudflare:
-      proxied: true
-  ttl: 1
-  type: CNAME
-  value: cname.vercel-dns.com.
-hi:
   octodns:
     cloudflare:
       proxied: true
