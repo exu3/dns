@@ -17,3 +17,8 @@ zones:
       - config
     targets:
       - cloudflare
+  uwu.boats:
+    sources:
+      - config
+    target:
+      - cloudflare
