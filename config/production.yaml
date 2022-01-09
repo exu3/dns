@@ -20,5 +20,5 @@ zones:
   uwu.boats:
     sources:
       - config
-    target:
+    targets:
       - cloudflare

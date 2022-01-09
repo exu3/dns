@@ -17,21 +17,21 @@
     type: TXT
     value: v=spf1 include:spf.improvmx.com ~all
 
-art:
+"art":
   octodns:
     cloudflare:
       proxied: false
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
-pfp:
+"pfp":
   octodns:
     cloudflare:
       proxied: false
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
-www:
+"www":
   octodns:
     cloudflare:
       proxied: false
