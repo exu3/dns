@@ -1,6 +1,6 @@
 ---
-? ''
-: - octodns:
+"":
+  - octodns:
       cloudflare:
         proxied: true
     ttl: 1
@@ -9,42 +9,32 @@
   - ttl: 1
     type: MX
     values:
-    - exchange: mx1.improvmx.com.
-      preference: 10
-    - exchange: mx2.improvmx.com.
-      preference: 20
+      - exchange: mx1.improvmx.com.
+        preference: 10
+      - exchange: mx2.improvmx.com.
+        preference: 20
   - ttl: 1
     type: TXT
     value: v=spf1 include:spf.improvmx.com ~all
 
-hi:
+art:
   octodns:
     cloudflare:
-      proxied: true
+      proxied: false
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
-
 pfp:
   octodns:
     cloudflare:
-      proxied: true
+      proxied: false
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
-
-timeline:
-  octodns:
-    cloudflare:
-      proxied: true
-  ttl: 1
-  type: CNAME
-  value: genetic-snowdrop-s8wt8vbmm1v0sql8ih8cvuor.herokudns.com.
-
 www:
   octodns:
     cloudflare:
-      proxied: true
+      proxied: false
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.

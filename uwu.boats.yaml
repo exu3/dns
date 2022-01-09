@@ -1,8 +1,15 @@
 ---
-www:
+"hi":
   octodns:
     cloudflare:
       proxied: true
   ttl: 1
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: eilla1.github.io.
+"":
+  octodns:
+    cloudflare:
+      proxied: true
+  ttl: 1
+  type: CNAME
+  value: objective-bat-20ohx6bzpxebgqekg3fvkysr.herokudns.com.
